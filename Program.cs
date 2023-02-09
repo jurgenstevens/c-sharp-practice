@@ -51,6 +51,17 @@ namespace Program
             Console.WriteLine(Math.Sqrt(36)); // 6
             Console.WriteLine(Math.Pow(3, 2)); // 9
 
+            // INPUT
+            Console.Write("Enter your name: ");
+            // pauses to read input from Write above to define name variable
+            string name = Console.ReadLine();
+
+            // another input
+            Console.Write("Enter your age: ");
+            string age = Console.ReadLine();
+            // logging the input
+            Console.WriteLine("Hello " + name + " you are " + age);
+            // Hello Jurgen you are 31
             Console.ReadLine();
         }
     }
